@@ -1,0 +1,37 @@
+.benefits {
+    background: #f6f6f6;
+    padding: 71px 0 64px 0;
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+    &__item {
+      text-align: center;
+      max-width: 270px;
+    }
+    &__subtitle {
+      font-weight: 700;
+      font-size: 18px;
+      color: #0d0d0d;
+      margin-top: 35px;
+    }
+    &__text {
+      font-weight: 300;
+      font-size: 14px;
+      color: #0d0d0d;
+      margin-top: 20px;
+      a {
+        text-decoration-line: underline;
+        color: #ff0000;
+      }
+    }
+    &__icon {
+      &_animated {
+        animation: heartbeat 1.5s ease infinite;
+        &:hover {
+          animation-play-state: paused;
+        }
+      }
+    }
+  }
